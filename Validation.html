@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title>Validation for Programming 11</title>
+        <style>
+            input:invalid {
+                border: 2px dashed orangered;
+            }
+
+            input:valid {
+                border: 2px solid green;
+            
+            }
+
+        div {
+            margin-bottom: 10px;
+        }
+        </style>
+        <Div>Welcome to my page</Div>
+    </head>
+    <body>
+        <form>
+            <div>
+                <label for="choose">First Name</label>
+                <input id="choose" name="valueOne" required maxLength="25">
+            </div>
+
+            <div>
+                <label for="choose">Last Name</label>
+                <input id="choose" name="valueTwo" required maxLength="25">
+            </div>
+
+            <div>
+                <label for="choose">City</label>
+                <input id="choose" name="valueThree" required maxLength="50">
+            </div>
+
+            <div>
+                <label for="choose">Zip Code</label>
+                <input id="choose" name="valueFour" required maxLength="5">
+            </div>
+
+            <div>
+                <button type="button">Submit</button>
+            </div>
+
+        </form>
+       
+
+
+    </body>
+</html>
